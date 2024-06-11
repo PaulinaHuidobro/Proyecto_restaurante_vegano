@@ -1,0 +1,78 @@
+.menu-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card-row {
+    width: 100%; /* O ajusta según tu preferencia */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Espacio entre las filas */
+  }
+  
+  .card-body{
+
+    text-align: justify;
+    padding: auto;
+  }
+
+  .card {
+    flex:40%;
+    margin: 20px;
+    width: 30%;
+    padding: 0%;
+    min-width:200px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: .5s;
+    background-color: hsl(66, 55%, 71%) !important;  
+    display: flex;
+
+
+    @media only screen and (max-width: 580px) {
+      display: flex;
+      flex-direction: column;
+  }
+}
+
+.card:hover {
+  box-shadow: 0 9px 18px #2777ad;
+    
+
+}
+
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-justify: auto;
+    text-align: center;
+    background-color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0%;
+
+  }
+  .title {
+    margin-top: 0;
+  }
+  
+  .title {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .restaurant-image {
+    
+    display: block;
+    margin: 30px auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 70px 10px 70px 10px;
+   /* Esto asegura que la altura se ajuste automáticamente para mantener la proporción */
+    max-height: 200px; /* Esto establece la altura máxima de la imagen */
+    object-fit: cover; /* Esto asegura que la imagen se ajuste manteniendo su relación de aspecto */
+  }
+  
