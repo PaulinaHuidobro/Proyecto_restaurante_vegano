@@ -1,5 +1,6 @@
 
 Proyecto: Página Web del Restaurante Vegano
+
 Este proyecto presenta la página web de nuestro restaurante vegano. La página permite a los usuarios explorar el menú del restaurante, con descripciones detalladas de cada plato, y leer nuestro blog, donde compartimos información especial y actualizaciones sobre el restaurante. Además, los usuarios pueden hacer reservas en línea a través de un formulario integrado.
 
 Características
